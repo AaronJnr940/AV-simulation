@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+    <scenario name="UrbanConstructionEmergency" type="UrbanConstructionEmergency" town="Town03">
+        <!-- Ego vehicle -->
+        <ego_vehicle x="0" y="0" z="0.5" yaw="0" model="vehicle.toyota.prius" />
+
+        <!-- Construction-zone reference point (5 cones will be spawned 2 m apart) -->
+        <other_actor model="static.prop.trafficcone" x="25" y="10" z="0.5" yaw="0" />
+        <!-- Emergency vehicle -->
+        <other_actor model="vehicle.ford.ambulance" x="30" y="5" z="0.5" yaw="90" />
+    </scenario>
+</scenarios>

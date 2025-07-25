@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+    <scenario name="SuburbanSchoolZone" type="SuburbanSchoolZone" town="Town03">
+        <ego_vehicle x="230" y="195" z="40" yaw="180" model="vehicle.toyota.prius" />
+        <!-- No fixed route; open-world driving -->
+    </scenario>
+</scenarios>
